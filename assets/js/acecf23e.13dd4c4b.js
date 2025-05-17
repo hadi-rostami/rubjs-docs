@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrubjs_document=self.webpackChunkrubjs_document||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/rubjs-docs/blog","blogTitle":"Blog","authorsListPath":"/rubjs-docs/blog/authors"}')}}]);
