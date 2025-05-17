@@ -11,6 +11,8 @@ import { BiBookReader } from "react-icons/bi";
 import CodeWithImage from "../components/CodeWithImage";
 import { ImNpm } from "react-icons/im";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -62,11 +64,10 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`داکیومنت ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="ساده بنویس، هوشمند بساز — تجربه‌ای تازه در توسعه ربات‌های روبیکایی"
     >
       <HomepageHeader />
       <main dir="rtl">
-        <HomepageFeatures />
         <CodeWithImage
           title="راه اندازی سریع"
           description="RubJS یک فریمورک مدرن، زیبا و غیرهمزمان است که به شما امکان می‌دهد به‌راحتی با API اصلی روبیکا از طریق یک حساب کاربری (کلاینت سفارشی) با استفاده از جاوا اسکریپت تعامل داشته باشید."
@@ -84,6 +85,7 @@ bot.onMessageUpdates([customFilter, Filters.isText], async (message) => {
 
 bot.run();`}
         />
+        <HomepageFeatures />
         <div className="">
           <h2 className={styles.home_title}> برو به ؟...</h2>
           <div className={styles.buttons}>
@@ -113,3 +115,4 @@ bot.run();`}
     </Layout>
   );
 }
+

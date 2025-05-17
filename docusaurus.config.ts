@@ -10,9 +10,9 @@ const config: Config = {
   url: "https://hadi-rostami.github.io",
 
   baseUrl: "/rubjs-docs/",
-  organizationName: 'hadi-rostami', // ✅ GitHub username
-  projectName: 'rubjs-docs',         // ✅ نام ریپوی گیت‌هاب
-  deploymentBranch: 'gh-pages',
+  organizationName: "hadi-rostami", // ✅ GitHub username
+  projectName: "rubjs-docs", // ✅ نام ریپوی گیت‌هاب
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -64,7 +64,7 @@ const config: Config = {
           position: "left",
           label: "یادگیری",
         },
-      
+
         {
           href: "https://github.com/hadi-rostami/rubjs",
           label: "GitHub",
@@ -96,7 +96,6 @@ const config: Config = {
         {
           title: "بیشتر",
           items: [
-            
             {
               label: "گیت‌هاب",
               href: "https://github.com/facebook/docusaurus",
@@ -110,6 +109,27 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+
+    metadata: [
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Rubjs - ساده بنویس، هوشمند بساز" },
+      {
+        property: "og:description",
+        content: "تجربه‌ای تازه در توسعه ربات‌های روبیکایی",
+      },
+      {
+        property: "og:image",
+        content: "https://hadi-rostami.github.io/rubjs-docs/img/logo.png",
+      },
+      {
+        property: "og:url",
+        content: "https://hadi-rostami.github.io/rubjs-docs/",
+      },
+      {
+        name: "twitter:image",
+        content: "https://hadi-rostami.github.io/rubjs-docs/img/logo.png",
+      },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
