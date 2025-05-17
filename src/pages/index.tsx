@@ -10,13 +10,14 @@ import styles from "./index.module.css";
 import { BiBookReader } from "react-icons/bi";
 import CodeWithImage from "../components/CodeWithImage";
 import { ImNpm } from "react-icons/im";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header dir="rtl" className={clsx(" ", styles.heroBanner)}>
       <div className="container">
         <img
-          src="/img/rubika.png"
+          src={useBaseUrl("/img/rubika.png")}
           alt="لوگوی Rubjs"
           style={{ width: 120, height: 120, marginTop: 80, marginBottom: 20 }}
         />
@@ -91,31 +92,21 @@ bot.run();`}
                 "button button--secondary button--lg",
                 styles.icons
               )}
-              to="/docs/intro"
+              to="https://github.com/hadi-rostami/rubjs"
             >
-              Document
-              <BiBookReader />
+              GitHub
+              <FaGithub />
             </Link>
             <Link
-            className={clsx(
-              "button button--secondary button--lg",
-              styles.icons
-            )}
-            to="https://github.com/hadi-rostami/rubjs"
-          >
-            GitHub
-            <FaGithub />
-          </Link>
-          <Link
-            className={clsx(
-              "button button--secondary button--lg",
-              styles.icons
-            )}
-            to="https://www.npmjs.com/package/rubjs"
-          >
-            npm
-            <ImNpm />
-          </Link>
+              className={clsx(
+                "button button--secondary button--lg",
+                styles.icons
+              )}
+              to="https://www.npmjs.com/package/rubjs"
+            >
+              npm
+              <ImNpm />
+            </Link>
           </div>
         </div>
       </main>
