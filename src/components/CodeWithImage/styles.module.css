@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  font-family: "Vazir";
+}
+
+.description {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Vazir";
+  margin-bottom: 50px;
+}
+
+.container_codes{
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.code_container {
+  width: 90%;
+}
