@@ -10,8 +10,8 @@ const config: Config = {
   url: "https://hadi-rostami.github.io",
 
   baseUrl: "/rubjs-docs/",
-  organizationName: "hadi-rostami", // ✅ GitHub username
-  projectName: "rubjs-docs", // ✅ نام ریپوی گیت‌هاب
+  organizationName: "hadi-rostami", 
+  projectName: "rubjs-docs",  
   deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: "throw",
@@ -54,7 +54,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/logo.png",
     navbar: {
       title: "Rubjs",
       items: [

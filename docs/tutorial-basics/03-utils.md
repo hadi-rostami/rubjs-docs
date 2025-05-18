@@ -13,13 +13,13 @@ sidebar_position: 1
 ```ts
 import { Client ,Filters , Utils } from 'rubjs';
 
-const bot = new Client("bot")
+const client = new Client("client")
 
-bot.onMessageUpdates([Filters.equalCommand("ربات")],async (message) =>
+client.onMessageUpdates([Filters.equalCommand("ربات")],async (message) =>
     await message.reply(`Hello ${Utils.Code("from")} ${Utils.Bold("RubJS")}`)
 );
 
-bot.run()
+client.run()
 ```
 
 ## 🔧 متدها

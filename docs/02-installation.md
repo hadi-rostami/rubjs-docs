@@ -30,13 +30,13 @@ npm install rubjs
 ```js
 const { Client } = require("rubjs");
 
-const bot = new Client("bot");
+const client = new Client("client");
 
-bot.onMessageUpdates(async (message) => {
+client.onMessageUpdates(async (message) => {
   await message.reply("سلام! ربات rubjs شما فعال شد.");
 });
 
-bot.run();
+client.run();
 ```
 
 5. اجرای ربات:

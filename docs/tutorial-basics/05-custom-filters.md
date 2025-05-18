@@ -17,7 +17,7 @@ sidebar_position: 1
 ```js
 const { Client, Utils, Filters } = require("rubjs");
 
-const bot = new Client("bot");
+const client = new Client("client");
 
 // فقط پیام‌هایی که از این شناسه ارسال شده‌اند
 const object_guid = "object_guid";
@@ -25,11 +25,11 @@ const object_guid = "object_guid";
 // تعریف فیلتر سفارشی
 const customFilter = (msg) => msg.object_guid === object_guid;
 
-bot.onMessageUpdates([customFilter, Filters.isText], async (message) => {
+client.onMessageUpdates([customFilter, Filters.isText], async (message) => {
   await message.reply(`Hello ${Utils.Italic("from")} ${Utils.Bold("RubJS")}!`);
 });
 
-bot.run();
+client.run();
 ```
 
 ## فیلترهای بیشتر
@@ -38,7 +38,7 @@ bot.run();
 ### نمونه فیلتر AND
 در حالت پیش‌فرض اگر چند فیلتر را در یک آرایه قرار دهید، همه‌ی آن‌ها باید برقرار باشند (عملگر AND).
 ```js
-bot.onMessageUpdates([Filters.isGroup, Filters.isText], async (msg) => {
+client.onMessageUpdates([Filters.isGroup, Filters.isText], async (msg) => {
   await msg.reply("سلام");
 });
 ```
@@ -49,7 +49,7 @@ bot.onMessageUpdates([Filters.isGroup, Filters.isText], async (msg) => {
 اگر فیلترها را در یک آرایه‌ی داخلی (تو در تو) قرار دهید، کافی‌ست حداقل یکی از آن‌ها برقرار باشد.
 
 ```js
-bot.onMessageUpdates([[Filters.isForward, Filters.isLink]], async (msg) => {
+client.onMessageUpdates([[Filters.isForward, Filters.isLink]], async (msg) => {
   await msg.reply("سلام");
 });
 ```
@@ -60,7 +60,7 @@ bot.onMessageUpdates([[Filters.isForward, Filters.isLink]], async (msg) => {
 می‌توانید فیلترها را ترکیب کنید؛ مثلاً پیام باید در گروه باشد و یکی از شرایط لینک یا فوروارد بودن را داشته باشد.
 
 ```js
-bot.onMessageUpdates([Filters.isGroup, ّ[Filters.isForward, Filters.isLink]], async (msg) => {
+client.onMessageUpdates([Filters.isGroup, ّ[Filters.isForward, Filters.isLink]], async (msg) => {
   await msg.reply("سلام");
 });
 ```
