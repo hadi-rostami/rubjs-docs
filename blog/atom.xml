@@ -2,77 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hadi-rostami.github.io/rubjs-docs/blog</id>
     <title>Rubjs Blog</title>
-    <updated>2021-08-01T00:00:00.000Z</updated>
+    <updated>2025-05-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hadi-rostami.github.io/rubjs-docs/blog"/>
     <subtitle>Rubjs Blog</subtitle>
     <icon>https://hadi-rostami.github.io/rubjs-docs/img/logo.png</icon>
     <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://hadi-rostami.github.io/rubjs-docs/blog/mdx-blog-post</id>
-        <link href="https://hadi-rostami.github.io/rubjs-docs/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>نکته</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="کپی به کلیپ‌بورد" title="کپی" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content>
+        <title type="html"><![CDATA[نصب rubjs در گوشی موبایل]]></title>
+        <id>https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile</id>
+        <link href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile"/>
+        <updated>2025-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[سلام! در این مقاله قصد داریم به شما آموزش دهیم چگونه در گوشی موبایل خود محیط برنامه‌نویسی راه‌اندازی کرده و با rubjs شروع به کدنویسی کنید. بهترین روش برای این کار استفاده از Termux است که یک شبیه‌ساز ترمینال لینوکس برای اندروید می‌باشد.]]></summary>
+        <content type="html"><![CDATA[<p>سلام! در این مقاله قصد داریم به شما آموزش دهیم چگونه در گوشی موبایل خود محیط برنامه‌نویسی راه‌اندازی کرده و با <strong>rubjs</strong> شروع به کدنویسی کنید. بهترین روش برای این کار استفاده از <strong>Termux</strong> است که یک شبیه‌ساز ترمینال لینوکس برای اندروید می‌باشد.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="مرحله-۱-نصب-termux">مرحله ۱: نصب Termux<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%85%D8%B1%D8%AD%D9%84%D9%87-%DB%B1-%D9%86%D8%B5%D8%A8-termux" class="hash-link" aria-label="لینک مستقیم به مرحله ۱: نصب Termux" title="لینک مستقیم به مرحله ۱: نصب Termux">​</a></h2>
+<p>Termux یک اپلیکیشن رایگان و سبک است که به شما امکان اجرای دستورات لینوکس را در اندروید می‌دهد. برای نصب:</p>
+<ul>
+<li>
+<p>به <a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener noreferrer">Google Play Store</a> یا <a href="https://f-droid.org/en/packages/com.termux/" target="_blank" rel="noopener noreferrer">F-Droid</a> مراجعه کنید و Termux را دانلود و نصب کنید.</p>
+</li>
+<li>
+<p>بعد از نصب، برنامه را باز کنید تا آماده استفاده شود.</p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="مرحله-۲-آپدیت-پکیجها-و-نصب-nodejs">مرحله ۲: آپدیت پکیج‌ها و نصب Node.js<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%85%D8%B1%D8%AD%D9%84%D9%87-%DB%B2-%D8%A2%D9%BE%D8%AF%DB%8C%D8%AA-%D9%BE%DA%A9%DB%8C%D8%AC%D9%87%D8%A7-%D9%88-%D9%86%D8%B5%D8%A8-nodejs" class="hash-link" aria-label="لینک مستقیم به مرحله ۲: آپدیت پکیج‌ها و نصب Node.js" title="لینک مستقیم به مرحله ۲: آپدیت پکیج‌ها و نصب Node.js">​</a></h2>
+<p>قبل از نصب هر چیزی بهتر است مخازن و پکیج‌های Termux را آپدیت کنید تا آخرین نسخه‌ها را داشته باشید:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pkg update &amp;&amp; pkg upgrade -y</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="کپی به کلیپ‌بورد" title="کپی" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>این دستور باعث می‌شود که فهرست بسته‌ها و نرم‌افزارهای نصب شده به‌روز شود.</p>
+<p>حالا Node.js را نصب کنید که محیط اجرای JavaScript و npm را فراهم می‌کند:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pkg install nodejs -y</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="کپی به کلیپ‌بورد" title="کپی" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>برای اطمینان از نصب درست Node.js، نسخه آن را بررسی کنید:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">node -v</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm -v</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="کپی به کلیپ‌بورد" title="کپی" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="مرحله-۳-نصب-rubjs">مرحله ۳: نصب rubjs<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%85%D8%B1%D8%AD%D9%84%D9%87-%DB%B3-%D9%86%D8%B5%D8%A8-rubjs" class="hash-link" aria-label="لینک مستقیم به مرحله ۳: نصب rubjs" title="لینک مستقیم به مرحله ۳: نصب rubjs">​</a></h2>
+<p>با داشتن Node.js، حالا می‌توانید rubjs را نصب کنید. این ابزار به شما امکان می‌دهد که پروژه‌های خود را با آن بسازید و اجرا کنید.</p>
+<p>برای نصب rubjs به صورت سراسری (global) از دستور زیر استفاده کنید:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g rubjs</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="کپی به کلیپ‌بورد" title="کپی" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="مرحله-۴-شروع-به-کدنویسی">مرحله ۴: شروع به کدنویسی<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%85%D8%B1%D8%AD%D9%84%D9%87-%DB%B4-%D8%B4%D8%B1%D9%88%D8%B9-%D8%A8%D9%87-%DA%A9%D8%AF%D9%86%D9%88%DB%8C%D8%B3%DB%8C" class="hash-link" aria-label="لینک مستقیم به مرحله ۴: شروع به کدنویسی" title="لینک مستقیم به مرحله ۴: شروع به کدنویسی">​</a></h2>
+<ul>
+<li>بعد از نصب موفقیت‌آمیز rubjs، می‌توانید کدنویسی را شروع کنید.</li>
+<li>کدهای جاوااسکریپت خود را بنویسید و اجرا کنید.</li>
+<li>تمام کارهایتان را در Termux و موبایلتان مدیریت کنید.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="مرحله-۵-اجرای-ربات">مرحله ۵: اجرای ربات<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%85%D8%B1%D8%AD%D9%84%D9%87-%DB%B5-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%B1%D8%A8%D8%A7%D8%AA" class="hash-link" aria-label="لینک مستقیم به مرحله ۵: اجرای ربات" title="لینک مستقیم به مرحله ۵: اجرای ربات">​</a></h2>
+<p>برای اجرای ربات از دستور <code>node filename.js</code> استفاده کنید.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="نکات-مهم">نکات مهم<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%86%DA%A9%D8%A7%D8%AA-%D9%85%D9%87%D9%85" class="hash-link" aria-label="لینک مستقیم به نکات مهم" title="لینک مستقیم به نکات مهم">​</a></h2>
+<ul>
+<li>همیشه قبل از نصب پکیج‌ها با <code>pkg update &amp;&amp; pkg upgrade</code> مخازن و بسته‌های نصب شده را به‌روز نگه دارید.</li>
+<li>دقت کنید که مجوزهای لازم به Termux داده شده باشد تا به حافظه و فایل‌ها دسترسی داشته باشد.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="سوالات-متداول-faq">سوالات متداول (FAQ)<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%AA%D8%AF%D8%A7%D9%88%D9%84-faq" class="hash-link" aria-label="لینک مستقیم به سوالات متداول (FAQ)" title="لینک مستقیم به سوالات متداول (FAQ)">​</a></h2>
+<p><strong>1- Termux چیست و چرا باید از آن استفاده کنم؟</strong><br>
+<!-- -->ج: Termux یک ترمینال لینوکسی سبک برای اندروید است که به شما امکان می‌دهد محیط توسعه لینوکسی را روی موبایل خود داشته باشید.</p>
+<p><strong>2- آیا نصب Node.js روی Termux کار سختیه؟</strong><br>
+<!-- -->ج: خیر، با چند دستور ساده که در مقاله گفته شده نصب و راه‌اندازی می‌شود.</p>
+<p><strong>3- آیا می‌توانم بدون اینترنت کدنویسی کنم؟</strong><br>
+<!-- -->ج: بله، پس از نصب تمام ابزارهای لازم، می‌توانید به صورت آفلاین هم کار کنید.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="منابع-و-لینکهای-مفید">منابع و لینک‌های مفید<a href="https://hadi-rostami.github.io/rubjs-docs/blog/install-rubjs-in-mobile#%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D9%88-%D9%84%DB%8C%D9%86%DA%A9%D9%87%D8%A7%DB%8C-%D9%85%D9%81%DB%8C%D8%AF" class="hash-link" aria-label="لینک مستقیم به منابع و لینک‌های مفید" title="لینک مستقیم به منابع و لینک‌های مفید">​</a></h2>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener noreferrer">صفحه رسمی Termux در Google Play</a></li>
+<li><a href="https://f-droid.org/en/packages/com.termux/" target="_blank" rel="noopener noreferrer">صفحه رسمی Termux در F-Droid</a></li>
+<li><a href="https://nodejs.org/en/docs/" target="_blank" rel="noopener noreferrer">مستندات Node.js</a></li>
+<li><a href="https://www.npmjs.com/package/rubjs" target="_blank" rel="noopener noreferrer">صفحه رسمی rubjs در npm</a></li>
+</ul>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Hadi Rostami</name>
         </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://hadi-rostami.github.io/rubjs-docs/blog/long-blog-post</id>
-        <link href="https://hadi-rostami.github.io/rubjs-docs/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://hadi-rostami.github.io/rubjs-docs/blog/first-blog-post</id>
-        <link href="https://hadi-rostami.github.io/rubjs-docs/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="rubjs" term="rubjs"/>
+        <category label="آموزش" term="آموزش"/>
+        <category label="موبایل" term="موبایل"/>
+        <category label="Termux" term="Termux"/>
+        <category label="Node.js" term="Node.js"/>
     </entry>
 </feed>

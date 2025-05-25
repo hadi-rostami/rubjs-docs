@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrubjs_document=self.webpackChunkrubjs_document||[]).push([[5730],{1358:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/rubjs-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
